@@ -2,9 +2,14 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            scroll-behavior: smooth;
+            user-select: none;
+            -webkit-user-drag: none;
         }
+
         body {
             font-family: Arial, sans-serif;
+            height:2500px;
         }
         
         .navbar {
@@ -50,9 +55,23 @@
             justify-content: space-between;
             align-items: center;            
         }
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 5px 10px
+        }
+        .searchIcon{
+            color: black;
+        }
         .search input{
-            border-radius: 8px;
             font-size: 16px;
+            outline: none;
+            border: none;
         }
         .search input::placeholder:hover {
             opacity : 0.5;
@@ -322,8 +341,32 @@
 
         .footer {
             color: white;
+            padding: 0px 0px 18px 0px;
         }
 
+.loader {
+    display: inline-flex;
+    gap: 10px;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+      linear-gradient(#222 0 0) top/100% 40% no-repeat,
+      radial-gradient(farthest-side,#000 95%,#0000) 50%/8px 8px no-repeat
+      #fff;
+    animation: l7 1.5s infinite alternate ease-in;
+  }
+  @keyframes l7 {
+    0%,
+    70% {background-size:100% 40%,8px 8px}
+    85% {background-size:100% 120%,8px 8px}
+    100% {background-size:100% 40%,8px 8px}
+  }
+        
         .footer2 a{
             color: white;
             font-size: 12px;
