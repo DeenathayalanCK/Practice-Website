@@ -1,0 +1,345 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .navbar {
+            background-color: rgb(26, 25, 90);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: static;
+        }
+        .logo {
+            display: flex;
+            margin-left : 0px;
+            height : 50px;
+            cursor: pointer;
+            align-items: center;
+        }
+        .dead {
+            color: white;
+            font-family: cursive;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+        .image:hover {
+            transform: scale(1.1);
+            transition: transform 0.5s;
+        }
+        .heading {
+            font-family: cursive;
+            color: white;
+            padding:4px;
+            cursor : pointer;
+        }
+        .heading:hover {
+            opacity : 0.5;
+            transition: opacity 0.2s;
+        }
+        .sb {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;            
+        }
+        .search input{
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        .search input::placeholder:hover {
+            opacity : 0.5;
+            transition: opacity 0.2s; 
+        }
+        .navButton  {
+            background-color: rgb(26, 25, 90);
+            color: white;
+            padding: 10px;
+            border-color: rgb(26, 25, 90);
+            border-radius: 20px;
+            border-style: solid;
+            margin : 2px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .navButton:hover {
+            background-color: white;
+            color:rgb(26, 25, 90);
+            transition: background-color 0.5s, color 0.5s;
+            text-decoration: underline;
+        }
+        .navButton:active {
+            background-color: rgb(64, 121, 191);
+            color: white;
+            opacity: 0.5;
+        }
+        .pr {
+            text-decoration: none;
+            background-color: rgb(26, 25, 90);
+            color: white;
+            padding: 10px;
+            border-color: rgb(26, 25, 90);
+            border-radius: 20px;
+            border-style: solid;
+            margin : 2px;
+            cursor: pointer;
+            font-size: 14px;
+
+        }
+        .pr:hover {
+            color: rgb(26, 25, 90);
+            background-color: white;
+        }
+
+
+
+
+/* Projects file styles */
+
+
+
+
+        .navbarr {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .RedButton {
+            background-color: rgb(200, 0, 0);
+            color: white;
+            width: 106px;
+            height: 37px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer; 
+            margin: 4px;
+            transition: opacity 1s;
+        }
+        .RedButton:hover {
+            opacity: 0.7;
+        }
+        .RedButton:active {
+            opacity: 0.5;
+        }
+        .JoinButton {
+            background-color: rgb(26, 25, 90);
+            color: white;
+            padding: 10px;
+            border-color: rgb(26, 25, 90);
+            border-radius: 20px;
+            border-style: solid;
+            margin : 2px;
+            cursor: pointer;
+            
+        }
+        .JoinButton:hover {
+            background-color: white;
+            color:rgb(26, 25, 90);
+            transition: background-color 0.5s, color 0.5s;
+        }
+        .JoinButton:active {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            opacity: 0.5;
+        }
+        .Tweet {
+            background-color: rgb(8, 160, 255);
+            color: white;
+            font-weight: bold;
+            width: 75px;
+            height: 36px;
+            border : none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin : 4px;
+        }
+        .Tweet:hover {  
+            box-shadow: 0px 7px 4px rgb(255, 255, 255);
+            transition: box-shadow 0.2s;
+        }
+
+        .headp{
+            color: black;
+            font-family: fantasy;
+            font-size: 24px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .headp2 {
+            color: rgb(83, 83, 83);
+            font-family:Montserrat;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 10px;
+           line-height: 30px;
+        }
+
+        .p3bg {
+            color: white;
+            background-color: rgb(200, 0, 0);
+            font-family:Arial;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        .p3bg1 {
+            margin-left: 10px;
+        }
+
+        .p3bg1:hover {
+            text-decoration: underline;
+            background-color: rgb(255, 255, 255);
+            color: rgb(200, 0, 0);
+            transition: background-color 0.2s;
+            cursor: pointer;
+        }
+
+
+        /* Login page styles */
+        .logocontainer {
+            display: flex;
+            justify-content: center;
+            color: aliceblue;
+            margin-bottom: 5px;
+            height: 60px;
+            width: 60px;
+            cursor: pointer;
+        }
+
+        .logocontainer img {
+            color: aliceblue;
+            height: 100%;
+            width: 100%;
+            padding: 5px;
+        }
+        .logocontainer:hover {
+            scale: 1.4;
+            transform: scale 0.3s;
+        }
+
+        .logocontainer:active{
+            opacity: 0.5;
+            transform: 0.15s;
+        }
+
+        .loginhead {
+            color: white;
+            font-family: Impact,Arial,'Times New Roman', Times, serif;
+            letter-spacing: 5px;
+            font-size: 28px;
+            margin-bottom: 20px;
+
+
+        }
+        .outer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 50px 20px 50px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: rgb(0, 0, 0);
+            border-width: 2px;
+            border-color: white;
+        }
+
+        .titles{
+            width: 100%;
+            font-family: cursive;
+            font-size: 20px;
+            color: white;
+            margin: 5px;
+            justify-content: center;
+        }
+
+        .titles input{
+            width: 100%;
+            height: 25px;
+        }
+        .titles input::placeholder {
+            font-size: 14px;
+            padding: 2px;
+        }
+
+        .buttonholder {
+            display: flex;
+            border: none;
+            justify-content: center;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            width: 100%;
+        }
+
+        .button {
+            width: 100%;
+            text-align: center;
+            padding: 10px 40px;
+            border: none;
+            border-radius: 10px;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255);
+            margin: 5px;
+            /* background-image: linear-gradient(blueviolet, plum); */
+            
+        }
+        .button1 {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .button1:hover {
+            color: white;
+            opacity: 0.5;
+            transform: color 0.2s opacity 0.2s;
+        }
+
+        .footer {
+            color: white;
+        }
+
+        .footer2 a{
+            color: white;
+            font-size: 12px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .footer2{
+            margin-top: 40px;
+        }
+
+
+
+        /* Media Queries */
+
+        @media(max-width:1048px){
+            .heading{
+                display: none;
+            }
+        }
